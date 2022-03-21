@@ -1,24 +1,28 @@
-import logo from './logo.svg';
 import './App.css';
+import SetupForm from './Form/SetForm'
+import Modal from './Modal/modal'
+import Loading from './Loading/Loading'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+    <main>
+      <section className='quiz'>
+        <p className='correct-answers'>
+          Correct Answers: 1
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+        <article className='container'>
+          <h2>
+            text
+          </h2>
+          <div className='btn-container'>
+
+          </div>
+        </article>
+        <button className='next-question'>
+          next question
+        </button>
+      </section>
+    </main>
   );
 }
 
